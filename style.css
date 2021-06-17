@@ -1,4 +1,4 @@
-
+ 
 .c-bg{
     background-color: #F9FAFB;
 }
@@ -642,4 +642,134 @@ ul.Loans-list li::before {
 }
 .T-member-info p{
     color: #796e6e;
+}
+.blog-content{}
+.blog-content p{}
+.blog-content strong {
+    font-size: 26px;
+    margin-bottom: 10px;
+    transition: .6s ease-in-out;
+}
+.blog-content strong:hover{
+    color: #E73C3E;
+    cursor: pointer;
+}
+.blog-content strong:hover a{
+    color: #E73C3E;
+}
+.blog-content a {
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    transition: .6s ease-in-out;
+}
+.blog-content:hover a{
+    color: #E73C3E;
+    letter-spacing: 1.5px;
+}
+.blog-img{
+    overflow: hidden;
+}
+.blog-img img{
+    width: 100%;
+    overflow: hidden;
+}
+.footer-section{
+    background-color: #111111;
+}
+ 
+.f-content{}
+.f-content p{
+    color: white;
+    font-weight: 500;
+}
+.f-social{}
+.f-social span {
+    color: whitesmoke;
+    font-weight: 700;
+    width: 120px;
+}
+.f-social ul{
+    display: inline-block !important;
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    width: 200px;
+}
+.f-social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.f-social ul li a:hover i{
+    color: #fb5200;
+}
+.f-social li a{
+    text-decoration: none;
+    
+}
+.f-social li a i{
+    color: white;
+    font-size: 18px;
+    transition: .5s ease-in-out;
+}
+.F-links-Box{}
+.L-box-header {
+    border-bottom: 1px solid #dddddd8c;
+    margin-bottom: 15px;
+}
+.L-box-header strong {
+    font-size: 22px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.L-box-content {
+    margin-top: 8px;
+    display: inline-block;
+}
+.L-box-content ul {
+    list-style: none;
+    display: inline-block;
+    padding-left: 0;
+}
+.L-box-content ul li{
+    line-height: 2.5;
+}
+.L-box-content ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: .5s ease-in-out;
+}
+.L-box-content ul li:hover a{
+    color: #E73C3E;
+    letter-spacing: 1.5px;
+}
+.L-box-contact{
+    display: flex;
+    align-items: flex-start;
+}
+.L-contact-icon{
+    margin-right: 15px;
+}
+.L-contact-icon i {
+    font-size: 19px;
+    margin-top: 6px;
+}
+.L-contact-info{}
+.L-contact-info a{
+    text-decoration: none;
+    color: white;
+    transition: .5s ease-in-out;
+}
+.L-contact-info a:hover{
+    color: #E73C3E;
+}
+.f-phone-i i {
+    transform: rotate(
+324deg
+);
+    font-size: 23px;
+}
+footer.footer {
+    border-top: 1px solid #dddddd7a;
 }
